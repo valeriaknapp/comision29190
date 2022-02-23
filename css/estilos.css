@@ -29,7 +29,7 @@ h3{
 
 h4{
     color: #999999;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     font-size: .8rem;
 }
@@ -43,20 +43,28 @@ footer{
     align-items:center; 
     align-content:-between;
     justify-content: space-between;
-    grid-area: footer;
 }
 
-.tamaño-logo{
-    width: 180px;
+div a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.tamano-logo{
+    width: 170px;
+    margin: .5rem;
+    padding-left: 2rem;
 }
 
 #navbarNavAltMarkup{
     justify-content: flex-end;
-    padding: 2rem;
+    padding-right: 2rem;
 }
 
-.icon{
+#icono-carro{
     height: 2rem;
+    filter: invert(0);
 }
 
 .iconBig{
@@ -65,15 +73,14 @@ footer{
 }
 
 .iconSmall{
-    height: 1rem;
+    height: 2rem;
+    width: 2rem;
     margin: .5rem
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+.icon-mini{
+    height: 1rem;
+    margin: .5rem
 }
 
 .hero{
@@ -86,12 +93,13 @@ footer{
     align-items: flex-end;
 }
 
-.hero-button{
+.hero-boton{
     display: flex;
     align-self: flex-end;
     flex-flow: row;
 }
-.button{
+
+.boton{
     padding: 1rem 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
@@ -107,18 +115,18 @@ footer{
     transition: 0.6s;
 }
 
-.button1{
+.boton1{
     background-image: linear-gradient(to left, #3AB4BC, #6A3ABC, #3AB4BC);
 }
 
-.button2{
+.boton2{
     background-image: linear-gradient(to left, #6A3ABC, #49BC3A, #6A3ABC);
 }
 
-.button:hover{
+.boton:hover{
     background-position: right;
 }
-.button a:hover{
+.boton a:hover{
     color: #fff;
 }
 
@@ -130,6 +138,22 @@ footer{
     justify-content: center;
     width: 100%;
     height: auto;
+}
+
+.tarjetas-flexibles{
+    grid-area: filter;
+    margin-top: 5rem;
+    margin-left: .5rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    position: fixed;
+    display:flex;
+    flex-flow:column wrap;
+    height: 100%;
+}
+
+.margen-abajo{
+    height: 30vh;
 }
 
 .big_card{
@@ -265,19 +289,9 @@ footer{
 }
 
 
-#mujer{
-    display: grid;
-    grid-template-columns: 15% auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:      "filter products"
-                              "footer footer";
-    grid-column-gap: 2rem;
-    background-color: #f1f1f1;
-}
-
 .conteiner-filter{
     grid-area: filter;
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: .5rem;
     margin-right: 2rem;
     padding: 2rem;
@@ -285,7 +299,6 @@ footer{
     display:flex;
     flex-flow:column wrap;
     height: 100%;
-
 }
 
 .conteiner-filter-categoria{
@@ -306,13 +319,6 @@ footer{
     margin-bottom: 2rem
 }
 
-.conteiner-filter-checkbox{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 1.2rem;
-}
-
 .conteiner-filter-color-juntos{
     display: flex;
     flex-wrap: wrap;
@@ -329,6 +335,7 @@ footer{
     overflow-y: scroll;
     background-color: #ffffff;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .small_card{
@@ -342,7 +349,7 @@ footer{
 
 .small_card_content{
     width: 200px;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     margin-bottom: 3px;
     border-radius: 1rem;
@@ -361,7 +368,7 @@ footer{
 }
 
 .small_card_img{
-    height: 75%;
+    height: 80%;
     width: 100%;
     overflow: hidden;    
     border-top-left-radius: 1rem;
@@ -384,6 +391,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding-left: 1.5rem;
+    margin-top: .5rem;
 }
 
 .small_card_colours{
@@ -391,7 +399,10 @@ footer{
     align-items: center;
 }
 
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 
 
@@ -401,11 +412,6 @@ footer{
 /* -----MEDIA QUERIES----- */
 
 @media screen and (max-width: 767px){
-    a{
-        font-size: .7rem;
-    }
-
-    
 
     .hero{
         justify-content: center;
@@ -446,13 +452,9 @@ footer{
         text-align: center;
     }
 
-    #mujer{
-        display: grid;
-        grid-template-columns: 30% auto;
-    }
-
     .conteiner-products{
         margin-top: 2rem;
+        margin-left: 6rem;
         justify-content: center;
     }
 
@@ -495,13 +497,6 @@ footer{
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
-
-    #mujer{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: #f1f1f1;
-    }
     
     .conteiner-filter{
         margin: 0rem;
@@ -514,11 +509,11 @@ footer{
         width:100%;
         height: 180px;
         background-color: #f1f1f1;
-    
     }
 
     .conteiner-products{
         margin-top: 15rem;
+        margin-left: 0rem;
         justify-content: center;
         
     }
