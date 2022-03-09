@@ -91,36 +91,7 @@ div a{
     flex-flow: row;
 }
 
-.boton{
-    padding: 1rem 2rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    border: none;
-    color: #ffffff;
-    display: flex;
-    align-self: flex-end;
-    border-radius: 1.5rem;
-    box-shadow: 3px 3px 5px rgba(48, 42, 42, 0.562);
-    color: #fff;
-    cursor: pointer;
-    background-size: 300%;
-    transition: 0.6s;
-}
 
-.boton1{
-    background-image: linear-gradient(to left, #3AB4BC, #6A3ABC, #3AB4BC);
-}
-
-.boton2{
-    background-image: linear-gradient(to left, #6A3ABC, #49BC3A, #6A3ABC);
-}
-
-.boton:hover{
-    background-position: right;
-}
-.boton a:hover{
-    color: #fff;
-}
 
 .destacados-index{
     background-color: #f1f1f1;
