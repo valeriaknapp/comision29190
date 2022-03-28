@@ -1,0 +1,42 @@
+html{
+    font-size: 62,5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    color: $morado;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size:xx-large;
+}
+
+h2{
+    color: $morado;
+    text-align: left;
+    font-size: 1.5rem;
+    font-size:xx-large;
+}
+
+h3{
+    color: $calipso;
+    text-align: left;
+    font-size:larger;
+}
+
+h4{
+    color: $gris_oscuro;
+    padding: .5rem;
+    text-align: center;
+    font-size:small;
+}
+
+p{
+    color: $gris_oscuro;
+    font-size: medium;
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+}

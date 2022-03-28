@@ -1,0 +1,15 @@
+.diferenciales_index{
+    margin: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-flow: column wrap;
+    
+    &_2{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: .5rem;
+        text-align: center;
+    }
+}

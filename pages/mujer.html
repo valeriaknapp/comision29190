@@ -15,40 +15,40 @@
 </head>
 
 <body>
-
+  
   <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <img src="../img/logo-white-I-color.png" alt="logo stitches blanco" class="tamano-logo">
+       <a href="../index.html"><img src="../img/logo-white-I-color.png" alt="logo stitches blanco" class="header_logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            <a class="nav-link" href="#">Hombre</a>
-            <a class="nav-link active" href="../pages/mujer.html">Mujer</a>
-            <a class="nav-link" href="../pages/accesorios.html">Accesorios</a>
-            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            <img src="../img/shopping-cart.png" alt="" class="iconSmall">
+            <a class="nav-link" href="../index.html">Inicio</a>
+            <a class="nav-link" href="./hombre.html">Hombre</a>
+            <a class="nav-link active" href="#">Mujer</a>
+            <a class="nav-link" href="./historia.html">Historia</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
           </div>
+          <img src="../img/shopping-cart.png" alt="carrito compra" class="iconSmall">
         </div>
       </div>
-    </nav>
-
+      </nav>
   </header>
 
   
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-md-2">
-        <div class="conteiner-filter">
+      <div class="col-12 col-md-3 col-lg-2">
+        <div class="conteiner_filter" >
 
           <img src="../img/icon_filter.png" alt="icono de filtrar" class="iconSmall">
 
-          <div class="conteiner-filter-categoria">
-            <h3>Categoría</h3>
+          <h3>Categoría</h3>
+          <div class="conteiner_filter_categoria">
+
 
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -72,16 +72,16 @@
             </div>
 
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-              <label class="form-check-label" for="defaultCheck2">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
                 Delantal
               </label>
             </div>
 
           </div>
 
-          <div class="conteiner-filter-talla">
-            <h3>Talla</h3>
+          <h3 class="bloque">Talla</h3>
+          <div class="conteiner_filter_talla">
 
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -120,13 +120,13 @@
 
           </div>
 
-          <div class="conteiner-filter-color">
-            <h3>Color</h3>
-            <div class="conteiner-filter-color-juntos">
-              <div class="colour_royalBlue"></div>
-              <div class="colour_rojo"></div>
-              <div class="colour_gris"></div>
-              <div class="colour_verde"></div>
+          <h3 class="bloque">Color</h3>
+          <div class="conteiner_filter_color">
+            <div class="conteiner_filter_color_juntos">
+              <div class="pelotacolor_royalBlue"></div>
+              <div class="pelotacolor_rojo"></div>
+              <div class="pelotacolor_gris"></div>
+              <div class="pelotacolor_verde"></div>
             </div>
     
           </div>
@@ -135,489 +135,243 @@
       </div>
 
 
-      <div class="col-md-10" class="tarjetas-flexibles">
+      <div class="col-12 col-md-9 col-lg-10">
 
-        <div class="conteiner-products">
+        <div class="conteiner_products">
 
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Conjunto-M-Rosa.jpg" alt="top hombre gris">
+                <img src="../img/mujer_1.webp" alt="Pantalón Mujer Sport Gris">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Pantalón Mujer Sport Gris</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$25.990</h3>
             </div>
-      
-          </div>
     
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Top-H-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-      
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Pant-H-Azul.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
           </div>
 
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
+                <img src="../img/mujer_2.webp" alt="Pantalón Mujer Sport Celeste">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Pantalón Mujer Sport Celeste</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$25.990</h3>
             </div>
-      
-          </div>
     
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-      
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>  
-
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-      
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
-    
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
           </div>
 
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
+                <img src="../img/mujer_3.webp" alt="Pantalón Mujer Sport Negro">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Pantalón Mujer Sport Negro</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$19.990</h3>
             </div>
-      
-          </div>
     
+          </div>
+
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
+                <img src="../img/mujer_4.webp" alt="Top Mujer Basic Negro">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Top Mujer Basic Negro</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$25.990</h3>
             </div>
-      
-          </div>
     
+          </div>
+
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
+                <img src="../img/mujer_5.webp" alt="Pantalón Mujer Basic Verde">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Pantalón Mujer Basic Verde</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$25.990</h3>
             </div>
-      
-          </div>
-      
-          <div class="small_card"> 
-            <div class="small_card_content">
-              <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
-              </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
-            </div>
-            <div class="small_card_info">
-              <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
-              </div>
-              <h3 class="small_card_price">$16.000</h3>
-            </div>
-      
-          </div>
     
+          </div>
+
           <div class="small_card"> 
             <div class="small_card_content">
               <figure class="small_card_img">
-                <img src="../img/Gorra-M-Gris.jpg" alt="top hombre gris">
+                <img src="../img/mujer_6.webp" alt="Pantalón Mujer Basic Pink">
               </figure>
-              <div class="small_card_name"> <h4>Gorra Lisa</h4> </div>
+              <div class="small_card_name"> <h4>Pantalón Mujer Basic Pink</h4> </div>
             </div>
             <div class="small_card_info">
               <div class="small_card_colours">
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_royalBlue"></div>
-                <div class="colour_rojo"></div>
-                <div class="colour_gris"></div>
-                <div class="colour_verde"></div>
-                <div class="colour_verde"></div>
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
               </div>
-              <h3 class="small_card_price">$16.000</h3>
+              <h3 class="small_card_price">$19.990</h3>
             </div>
-      
-          </div>  
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_7.webp" alt="Top Mujer Sport Gris">
+              </figure>
+              <div class="small_card_name"> <h4>Top Mujer Sport Gris</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$25.990</h3>
+            </div>
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_8.webp" alt="Top Mujer Basic Calipso">
+              </figure>
+              <div class="small_card_name"> <h4>Top Mujer Basic Calipso</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$25.990</h3>
+            </div>
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_9.webp" alt="Top Mujer Basic Verde">
+              </figure>
+              <div class="small_card_name"> <h4>Top Mujer Basic Verde</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$19.990</h3>
+            </div>
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_10.webp" alt="Pantalón Mujer Basic Royal Blue">
+              </figure>
+              <div class="small_card_name"> <h4>Pantalón Mujer Basic Royal Blue</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$25.990</h3>
+            </div>
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_11.webp" alt="Pantalón Mujer Basic Verde">
+              </figure>
+              <div class="small_card_name"> <h4>Pantalón Mujer Basic Verde</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$25.990</h3>
+            </div>
+    
+          </div>
+
+          <div class="small_card"> 
+            <div class="small_card_content">
+              <figure class="small_card_img">
+                <img src="../img/mujer_12.webp" alt="Top Mujer Azul">
+              </figure>
+              <div class="small_card_name"> <h4>Pantalón Mujer Verde</h4> </div>
+            </div>
+            <div class="small_card_info">
+              <div class="small_card_colours">
+                <div class="pelotacolor_royalBlue"></div>
+                <div class="pelotacolor_rojo"></div>
+                <div class="pelotacolor_gris"></div>
+                <div class="pelotacolor_verde"></div>
+              </div>
+              <h3 class="small_card_price">$19.990</h3>
+            </div>
+    
+          </div>
+
+
+
+
+
+
 
         </div>
 
@@ -627,24 +381,14 @@
   </div>
 
 
-  <div class="container-fluid">
-      <div class="row">
-  
-        <div class="col-12">
-          <footer>
-              <img src="../img/logo-white-I-color.png" alt="logo-full-color" height="40rem">
-              <div>
-                <img src="../img/icono_mail-blanco.png" alt="icono mail" class="icon-mini">
-                <img src="../img/icono_fb-blanco.png" alt="icono facebook" class="icon-mini">
-                <img src="../img/icono_instagram-blanco.png" alt="icono instagram" class="icon-mini">
-              </div>
-          </footer>
-
-        </div>
-
-
-      </div>
-  </div>
+  <footer class="footer">
+    <a href="../index.html"><img src="../img/logo-white-I-color.png" alt="logo-full-color" width="100px"></a> 
+     <div>
+       <img src="../img/icono_mail-blanco.png" alt="icono mail" class="icon-mini">
+       <img src="../img/icono_fb-blanco.png" alt="icono facebook" class="icon-mini">
+       <img src="../img/icono_instagram-blanco.png" alt="icono instagram" class="icon-mini">
+     </div>
+   </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -1,4 +1,27 @@
 #navbarNavAltMarkup{
     justify-content: flex-end;
-    padding-right: 2rem;
+}
+
+div a{
+    text-decoration: none;
+    color: $blanco;
+    margin: .2rem;
+}
+
+header{
+    z-index: 9999;
+}
+
+.fixed-top{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #212529;
+}
+
+.header_logo{
+width: 150px;
+}
+
+.nav-link active{
+    color: $calipso;
 }

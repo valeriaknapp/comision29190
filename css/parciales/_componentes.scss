@@ -1,66 +1,52 @@
-.boton{
-    padding: 1rem 2rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+.boton_primario{
+    padding: 1rem 1.5rem;
     border: none;
-    color: #ffffff;
+    background-image: linear-gradient(to left, #3AB4BC, #6A3ABC, #3AB4BC);
     display: flex;
     align-self: flex-end;
-    border-radius: 1.5rem;
+    border-radius: 3rem;
     box-shadow: 3px 3px 5px rgba(48, 42, 42, 0.562);
-    color: #fff;
+    color: $blanco;
     cursor: pointer;
     background-size: 300%;
     transition: 0.6s;
-    
-    &1{
-        background-image: linear-gradient(to left, #3AB4BC, #6A3ABC, #3AB4BC);
-    }
-    
-    &2{
-        background-image: linear-gradient(to left, #6A3ABC, #49BC3A, #6A3ABC);
-    }
     
     &:hover{
         background-position: right;
     }
     & a:hover{
-        color: #fff;
+        color: $blanco;
     }
 }
 
-.small_card{
+.big_card{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     width: 250px;
-    height: auto;
-    margin-top: 2rem;
-    
+
     &_content{
         width: 200px;
         height: 300px;
         margin: 20px;
         margin-bottom: 3px;
         border-radius: 1rem;
-        background: #fff;
         box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
         transition: all 400ms ease;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
+        
+        &:hover{
+            box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+            transform: translate(-2%);
+        }
     
-    &_content:hover{
-        box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.4);
-        transform: translate(-2%);
     }
     
     &_img{
         height: 80%;
-        width: 100%;
-        overflow: hidden;    
+        overflow: hidden;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
@@ -77,10 +63,74 @@
     
     &_info{
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        padding-left: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    &_colours{
+        display: flex;
+        align-items: center;
+    }
+
+    &_price{
+        padding-right: 1rem;    
+    }
+
+}
+    
+.small_card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px;
+    margin: 2rem;
+    margin-bottom: 0rem;
+
+    &_content{
+        width: 200px;
+        height: 400px;
+        margin: 20px;
+        margin-bottom: 3px;
+        border-radius: 1rem;
+        box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.2);
+        transition: all 400ms ease;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        &:hover{
+            box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+            transform: translate(-2%);
+        }
+    
+    }
+    
+    &_img{
+        height: 80%;
+        overflow: hidden;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    
+    &_img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    &_name{
+        height: auto;
+    }
+    
+    &_info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
         margin-top: .5rem;
     }
     
@@ -88,5 +138,58 @@
         display: flex;
         align-items: center;
     }
+
+    &_price{
+        padding-right: 1rem;    
+    }
+
 }
 
+
+.iconBig{
+    height: 4rem;
+    width: 4rem;
+}
+
+.iconSmall{
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem
+}
+
+.icon-mini{
+    height: 1rem;
+    margin: .5rem
+}
+
+.pelotacolor_royalBlue{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin: .2rem;
+    background-color: royalblue;
+}
+
+.pelotacolor_rojo{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        margin: .2rem;
+        background-color: red;
+}
+
+.pelotacolor_gris{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        margin: .2rem;
+        background-color: grey;
+}
+
+.pelotacolor_verde{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        margin: .2rem;
+        background-color: green;
+}

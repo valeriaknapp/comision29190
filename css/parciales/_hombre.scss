@@ -1,0 +1,50 @@
+.conteiner_filter{
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    position: fixed;
+    display:flex;
+    flex-flow:column wrap;
+    height: 100%;
+
+    &_categoria{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    &_talla{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem
+    }
+
+   &_color{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        
+        &_juntos{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }    
+    }
+}
+
+.conteiner_products{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5rem;
+}
+
+.row{
+    margin-right: calc(-0 * var(--bs-gutter-x));
+}
+

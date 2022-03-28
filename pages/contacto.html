@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>accesorios</title>
+    <title>contacto</title>
     
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,121 +16,69 @@
 
 <body>
 
-  <header class="fixed-top">
+    <header class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <img src="../img/logo-white-I-color.png" alt="logo stitches blanco" class="tamano-logo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            <a class="nav-link" href="#">Hombre</a>
-            <a class="nav-link" href="../pages/mujer.html">Mujer</a>
-            <a class="nav-link" href="../pages/accesorios.html">Accesorios</a>
-            <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
-            <img src="../img/shopping-cart.png" alt="" class="iconSmall">
-          </div>
+    <div class="container-fluid">
+     <a href="../index.html"><img src="../img/logo-white-I-color.png" alt="logo stitches blanco" class="header_logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html">Inicio</a>
+          <a class="nav-link" href="./hombre.html">Hombre</a>
+          <a class="nav-link" href="./mujer.html">Mujer</a>
+          <a class="nav-link" href="./historia.html">Historia</a>
+          <a class="nav-link active" href="#">Contacto</a>
         </div>
+        <img src="../img/shopping-cart.png" alt="carrito compra" class="iconSmall">
       </div>
+    </div>
     </nav>
+    </header>
 
-  </header>
+    <div class="contacto">
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col sm-6">
-            <img src="../img/Pant-H-Azul.jpg" alt="">
-        </div>
+        <div class="card mb-3">
+            <img src="../img/foto_contacto.png" class="card-img-top" alt="contacto">
 
-        <div class="col sm-6">
+            <div class="contacto_form">
+            <div class="card-body">
+              <h2 class="card-title">Hablemos...</h2>
+              <p class="card-text">Tienes alguna duda, necesitas hacernos alguna pregunta, o quieres sabes sobre nosotros? No dudes en escribirnos y te contestaremos a la brevedad.</p>
 
-        </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                  </div>
 
-        <div><img src="../img/foto_contacto.png" alt="">
-            <h3>Queremos Ayudarte!</h3>
-            <p>Deja tu información y te responderemos a la brevedad</p>
-        </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Deja tu comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
     
-        <div>
-            <form action="" method=""enctype="">
-                
-                <div>
-                    <h4>Nombre</h4> <input type="text" name="" id="">
+                  <button class="boton_primario" type="submit">Enviar comentario</button>
+
+              </div>
+
+            </div>
+          </div>
+
                 </div>
-                <div>
-                    <h4>Apellido</h4> <input type="text" lastname="" id="">
-                </div>
-                <div>
-                    <label id="userSex"> Sexo:</label>
-                        <input type="radio" name="userSex" id="" value="masculino">Masculino
-                        <input type="radio" name="userSex" id="" value="femenino">Femenino
-                </div>
-                <div>
-                    <input type="email" name="" id=""placeholder="e-mail">
-                </div>
-                <div>
-                    <input type="text" value="Deja tu comentario">
-                </div>
-            
-    
-                <form action="" method=""enctype="">
-                    <input type="submit" value="Enviar">
-                    <input type="button" value="Cancelar">
-                
-                </form>
-    </div>
-            
-        
-        <!--Ejemplos de otros tipos de formularios que pueden ser utiles mas adelante
-            
-            <div>
-                <input type="password" name="" id=""placeholder="Contraseña">
             </div>
 
-            <div>
-                <input type="number" name="" id="">
-            </div>
-    
-            <div>
-                <select name="userTalles" id="talles">
-                    <option value=""disable selected>Seleccione su talla</option>
-                    <option value="LARGE">Grande</option>
-                    <option value="MIDIUM">Mediano</option>
-                    <option value="SMALL">Pequeño</option>
-                </select>
-            </div>
-        
-        </form>
+        </div>
 
     </div>
-</div>
 
-<fieldset>
-    <legend>Información Personal</legend>
-
-</fieldset>
-    
-    <form action="" method=""enctype="">
-        <label for="condition">Terminos y condiciones </label>
-        <input type="checkbox" name="" id="condition" required>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar Datos">        
-    
-    
-    </form>
--->
-    
-
-    <footer>
-        <img src="../img/logo-white-I-color.png" alt="logo-full-color" height="40rem">
-        <div>
-          <img src="../img/icono_mail-blanco.png" alt="icono mail" class="iconSmall">
-          <img src="../img/icono_fb-blanco.png" alt="icono facebook" class="iconSmall">
-          <img src="../img/icono_instagram-blanco.png" alt="icono instagram" class="iconSmall">
-        </div>
-    </footer> 
+    <footer class="footer">
+    <a href="../index.html"><img src="../img/logo-white-I-color.png" alt="logo-full-color" width="100px"></a> 
+     <div>
+       <img src="../img/icono_mail-blanco.png" alt="icono mail" class="icon-mini">
+       <img src="../img/icono_fb-blanco.png" alt="icono facebook" class="icon-mini">
+       <img src="../img/icono_instagram-blanco.png" alt="icono instagram" class="icon-mini">
+     </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
